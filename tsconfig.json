@@ -12,7 +12,7 @@
     "resolveJsonModule": true,
     "types": [
       "vitest",
-      "vite/client",
+      "vite/client", // Client types for Vite
       "vite-plugin-vue-layouts/client",
       "vite-plugin-pwa/client",
       "unplugin-vue-macros/macros-global",
