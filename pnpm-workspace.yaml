@@ -58,8 +58,87 @@ catalogs:
   types:
     '@types/markdown-it-link-attributes': ^3.0.5
     '@types/nprogress': ^0.2.3
+  conflicts_frontend_h1_9_15:
+    '@unhead/vue': ^1.9.15
+  conflicts_frontend_h0_61_5:
+    '@unocss/reset': ^0.61.5
+  conflicts_frontend_h10_11_0:
+    '@vueuse/core': ^10.11.0
+  conflicts_frontend_h2_1_7:
+    pinia: ^2.1.7
+  conflicts_frontend_h3_4_34:
+    vue: ^3.4.34
+  conflicts_frontend_h9_13_1:
+    vue-i18n: ^9.13.1
+  conflicts_frontend_h4_4_0:
+    vue-router: ^4.4.0
+  conflicts_dev_h2_23_0:
+    '@antfu/eslint-config': ^2.23.0
+  conflicts_dev_h1_1_36:
+    '@iconify-json/carbon': ^1.1.36
+  conflicts_build_h4_0_0:
+    '@intlify/unplugin-vue-i18n': ^4.0.0
+  conflicts_build_h1_10_3:
+    '@shikijs/markdown-it': ^1.10.3
+    shiki: ^1.10.3
+  conflicts_build_h0_61_5:
+    '@unocss/eslint-config': ^0.61.5
+    unocss: ^0.61.5
+  conflicts_build_h5_1_0:
+    '@vitejs/plugin-vue': ^5.1.0
+  conflicts_dev_h0_20_1:
+    '@vue-macros/volar': ^0.20.1
+  conflicts_dev_h13_13_1:
+    cypress: ^13.13.1
+  conflicts_dev_h9_7_0:
+    eslint: ^9.7.0
+  conflicts_dev_h0_1_2:
+    eslint-plugin-format: ^0.1.2
+  conflicts_dev_h15_2_7:
+    lint-staged: ^15.2.7
+  conflicts_dev_h2_11_1:
+    simple-git-hooks: ^2.11.1
+  conflicts_dev_h0_14_2:
+    taze: ^0.14.2
+  conflicts_dev_h5_5_4:
+    typescript: ^5.5.4
+  conflicts_build_h0_18_0:
+    unplugin-auto-import: ^0.18.0
+  conflicts_build_h0_27_3:
+    unplugin-vue-components: ^0.27.3
+  conflicts_build_h2_9_5:
+    unplugin-vue-macros: ^2.9.5
+  conflicts_build_h0_26_2:
+    unplugin-vue-markdown: ^0.26.2
+  conflicts_build_h0_10_0:
+    unplugin-vue-router: ^0.10.0
+  conflicts_build_h5_3_5:
+    vite: ^5.3.5
+  conflicts_build_h0_20_0:
+    vite-plugin-pwa: ^0.20.0
+  conflicts_build_h7_3_6:
+    vite-plugin-vue-devtools: ^7.3.6
+  conflicts_build_h0_23_7:
+    vite-ssg: ^0.23.7
+  conflicts_build_h0_6_1:
+    vite-ssg-sitemap: ^0.6.1
+  conflicts_dev_h2_0_4:
+    vitest: ^2.0.4
+  conflicts_dev_h2_0_29:
+    vue-tsc: ^2.0.29
+  conflicts_dev_h2_21_1:
+    '@antfu/eslint-config': ^2.21.1
+  conflicts_build_h2_14_0:
+    unplugin-vue-macros: ^2.14.0
+  conflicts_dev_h2_2_12:
+    vue-tsc: ^2.2.12
+  conflicts_dev_h3_1_1:
+    '@vue-macros/volar': ^3.1.1
 
 onlyBuiltDependencies:
   - cypress
   - esbuild
   - simple-git-hooks
+catalog:
+  jsdom: ^24.1.1
+  pnpm: ^9.6.0

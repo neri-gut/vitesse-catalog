@@ -29,6 +29,9 @@ export default defineConfig({
     // https://github.com/posva/unplugin-vue-router
     VueRouter({
       extensions: ['.vue', '.md'],
+      // Le decimos explícitamente al plugin dónde buscar las páginas.
+      // Esta es la corrección clave.
+      routesFolder: 'src/pages', // Asegúrate de que esta línea esté presente
       dts: 'src/typed-router.d.ts',
     }),
 
@@ -71,6 +74,10 @@ export default defineConfig({
       extensions: ['vue', 'md'],
       // allow auto import and register components used in markdown
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
+      // Le decimos al plugin que busque componentes de forma recursiva en subdirectorios.
+      dirs: [
+        'src/components',
+      ],
       dts: 'src/components.d.ts',
     }),
 
@@ -152,8 +159,9 @@ export default defineConfig({
   ssgOptions: {
     script: 'async',
     formatting: 'minify',
-    beastiesOptions: {
-      reduceInlineStyles: false,
+    crittersOptions: {
+      // Opciones para la generación de CSS crítico.
+      // `reduceInlineStyles` ya no es una opción válida aquí, por lo que la eliminamos.
     },
     onFinished() {
       generateSitemap()
