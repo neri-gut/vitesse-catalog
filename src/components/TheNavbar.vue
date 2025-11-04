@@ -8,7 +8,7 @@
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center gap-2 text-xl text-gray-800 font-semibold no-underline dark:text-gray-200">
         <div i-carbon-delivery-parcel text-2xl />
-        <span>Refacciones</span>
+        <span> Refacciones Max</span>
       </RouterLink>
 
       <!-- Menú de Navegación -->

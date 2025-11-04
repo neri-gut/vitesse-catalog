@@ -1,12 +1,11 @@
 <template>
-  <section class="mb-8 bg-gray-200 px-8 py-16 text-center dark:bg-gray-800/50">
-    <div class="hero-content">
-      <h1 class="mb-4 text-4xl text-gray-900 font-bold dark:text-gray-100">
-        Encuentra la refacción exacta para tu auto
-      </h1>
-      <p class="text-xl text-gray-600 dark:text-gray-400">
-        Búsqueda por número de parte, nombre o modelo.
-      </p>
-    </div>
-  </section>
+  <div class="py-16 text-center lg:py-24">
+    <div i-carbon-vehicle-services class="mx-auto mb-4 text-5xl text-blue-600 dark:text-blue-400" />
+    <h1 class="text-4xl text-gray-900 font-bold tracking-tight sm:text-5xl dark:text-gray-100">
+      Encuentra la refacción exacta para tu vehículo
+    </h1>
+    <p class="mx-auto mt-6 max-w-2xl text-lg text-gray-600 leading-8 dark:text-gray-300">
+      Busca por nombre, número de parte o navega por nuestras categorías. Calidad y servicio garantizados.
+    </p>
+  </div>
 </template>

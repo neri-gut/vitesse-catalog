@@ -11,6 +11,7 @@ declare module 'vue' {
     '[id]': typeof import('./components/catalog/[id].vue')['default']
     CategoriesGrid: typeof import('./components/CategoriesGrid.vue')['default']
     FiltersSidebar: typeof import('./components/catalog/FiltersSidebar.vue')['default']
+    ProductCard: typeof import('./components/ProductCard.vue')['default']
     ProductGrid: typeof import('./components/catalog/ProductGrid.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
