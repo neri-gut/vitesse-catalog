@@ -22,7 +22,7 @@ declare module 'vue-router/auto-routes' {
     '/[...all]': RouteRecordInfo<'/[...all]', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
     '/about': RouteRecordInfo<'/about', '/about', Record<never, never>, Record<never, never>>,
     'catalog': RouteRecordInfo<'catalog', '/catalog', Record<never, never>, Record<never, never>>,
-    'faq': RouteRecordInfo<'faq', '/faq', Record<never, never>, Record<never, never>>,
+    '/faq': RouteRecordInfo<'/faq', '/faq', Record<never, never>, Record<never, never>>,
     'product-detail': RouteRecordInfo<'product-detail', '/product/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     '/README': RouteRecordInfo<'/README', '/README', Record<never, never>, Record<never, never>>,
   }
