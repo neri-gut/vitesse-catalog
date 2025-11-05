@@ -37,5 +37,13 @@ export default defineConfig({
     transformerDirectives(),
     transformerVariantGroup(),
   ],
-  safelist: 'prose prose-sm m-auto text-left'.split(' '),
+  safelist: [
+    ...('prose prose-sm m-auto text-left dark:prose-invert'.split(' ')),
+    // Iconos para la cuadrícula de categorías que se añaden dinámicamente
+    'i-carbon-disc-array',
+    'i-carbon-engine',
+    'i-carbon-gear',
+    'i-carbon-flash',
+    'i-carbon-filter',
+  ],
 })
