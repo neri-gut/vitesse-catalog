@@ -20,7 +20,7 @@ const categories = [
       </p>
     </div>
 
-    <div class="grid grid-cols-2 mt-12 gap-4 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3">
+    <div class="grid grid-cols-3 mt-12 gap-4 lg:grid-cols-6 md:grid-cols-4">
       <RouterLink
         v-for="category in categories"
         :key="category.name"

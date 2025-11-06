@@ -44,7 +44,7 @@ onMounted(() => {
     <div v-else-if="products.length === 0" class="mt-8 text-center">
       No se encontraron productos.
     </div>
-    <div v-else class="grid grid-cols-1 mt-8 gap-8 lg:grid-cols-4 sm:grid-cols-2">
+    <div v-else class="grid grid-cols-2 mt-8 gap-4 lg:grid-cols-4 lg:gap-8 sm:gap-6">
       <ProductCard v-for="product in products" :key="product.id" :product="product" />
     </div>
   </div>

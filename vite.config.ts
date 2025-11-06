@@ -113,9 +113,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
-        theme_color: '#ffffff',
+        name: 'Catálogo de Refaccionaria',
+        short_name: 'Catálogo',
+        theme_color: '#0ea5e9',
         icons: [
           {
             src: '/pwa-192x192.png',
