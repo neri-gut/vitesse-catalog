@@ -1,7 +1,10 @@
 <template>
-  <TheHero />
-  <TheSearchBar />
-  <CategoriesGrid />
+  <div>
+    <TheHeroCarousel />
+    <TheHero />
+    <TheSearchBar />
+    <CategoriesGrid />
+  </div>
 </template>
 
 <route lang="yaml">

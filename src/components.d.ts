@@ -19,6 +19,7 @@ declare module 'vue' {
     TheCounter: typeof import('./components/TheCounter.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheHero: typeof import('./components/TheHero.vue')['default']
+    TheHeroCarousel: typeof import('./components/TheHeroCarousel.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
     TheNavbar: typeof import('./components/TheNavbar.vue')['default']
     TheSearchBar: typeof import('./components/TheSearchBar.vue')['default']
